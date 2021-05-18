@@ -24,7 +24,7 @@ of the application displays the detected image with bounding boxes drawn for the
 
 *conda env create -f conda-cpu.yml (replace with condo-gpu.yml if GPU is available)*
 
-*conda activate (Activating the virtual env)*
+*conda activate yolov4-cpu1 (To activate the virtual env you've created)*
 
 2. Up the backend server by running app_v2.py python file within the virtual environment
 	 *$python app.py*
@@ -38,3 +38,6 @@ detected image along with the embedded	bounding boxes in the image
 
 ## Sample Output
 <img width="900" alt="sample output" src="https://github.com/SantoshBoga/ObjectDetection_Yolov4/blob/master/base_react_app/src/detections/beach_bottles_detection.jpg">
+
+## References
+https://github.com/pranjalAI/tensorflow-yolov4-tflite
